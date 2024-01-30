@@ -1,0 +1,88 @@
+// * 尺寸设置
+:root {
+  --rem: 12px;
+  --lineHeight: 1.5;
+  --padding: 1.3rem;
+  --borderRadius: 0.4rem;
+
+  --a4-width: 210mm;
+  --a4-height: 297mm;
+  --page-padding-v: 12mm;
+  --page-padding-h: 12mm;
+}
+
+// * 参数配置
+// 颜色设置
+body {
+  --blue: #206bc4;
+  --azure: #4299e1;
+  --indigo: #4263eb;
+  --purple: #ae3ec9;
+  --pink: #d6336c;
+  --red: #d63939;
+  --orange: #f76707;
+  --yellow: #f59f00;
+  --lime: #74b816;
+  --green: #2fb344;
+  --teal: #0ca678;
+  --cyan: #17a2b8;
+
+  // --blue-lt: #e9f0f9;
+  // --azure-lt: #ecf5fc;
+  // --indigo-lt: #eceffd;
+  // --purple-lt: #f7ecfa;
+  // --pink-lt: #fbebf0;
+  // --red-lt: #fbebeb;
+  // --orange-lt: #fef0e6;
+  // --yellow-lt: #fef5e6;
+  // --lime-lt: #f1f8e8;
+  // --green-lt: #eaf7ec;
+  // --teal-lt: #e7f6f2;
+  // --cyan-lt: #e8f6f8;
+}
+
+// 亮色
+body,
+body.light {
+  --gray0: #fff;
+  --gray50: #f8fafc;
+  --gray100: #f1f5f9;
+  --gray200: #e2e8f0;
+  --gray300: #c8d3e1;
+  --gray400: #9ba9be;
+  --gray500: #6c7a91;
+  --gray600: #49566c;
+  --gray700: #313c52;
+  --gray800: #1d273b;
+  --gray900: #0f172a;
+}
+
+// 暗色
+body.dark {
+  --gray0: #0f172a;
+  --gray50: #1d273b;
+  --gray100: #313c52;
+  --gray200: #49566c;
+  --gray300: #6c7a91;
+  --gray400: #9ba9be;
+  --gray500: #c8d3e1;
+  --gray600: #e2e8f0;
+  --gray700: #f1f5f9;
+  --gray800: #f8fafc;
+  --gray900: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    --gray0: #0f172a;
+    --gray50: #1d273b;
+    --gray100: #313c52;
+    --gray200: #49566c;
+    --gray300: #6c7a91;
+    --gray400: #9ba9be;
+    --gray500: #c8d3e1;
+    --gray600: #e2e8f0;
+    --gray700: #f1f5f9;
+    --gray800: #f8fafc;
+    --gray900: #fff;
+  }
+}

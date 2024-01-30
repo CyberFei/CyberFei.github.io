@@ -1,0 +1,41 @@
+// * 移动设备样式
+@media screen and (max-width: 210mm) {
+  .page {
+    margin: 0;
+    padding: var(--padding);
+    height: auto;
+    border-radius: 0;
+    outline: none;
+  }
+
+  gap {
+    display: block;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .info-line {
+    margin-top: 1rem;
+
+    .icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  .info-code {
+    display: none;
+  }
+
+  .part-title {
+    margin-bottom: 0.3rem;
+  }
+
+  .time-part-title {
+    display: block;
+  }
+  .time-part-time {
+    margin-bottom: 4px;
+  }
+}
